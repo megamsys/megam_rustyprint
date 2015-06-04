@@ -1,0 +1,28 @@
+[package]
+name = "megam_rustyprint"
+version = "0.1.1"
+authors = ["Raj thilak <rajthilak@megam.io>,Kishorekumar Neelamegam <nkishore@megam.io>"]
+description = """
+A rust lang pretty print on console.
+"""
+
+documentation = "https://github.com/megamsys/megam_rustyprint"
+homepage = "https://www.megam.io"
+repository = "https://github.com/megamsys/megam_rustyprint"
+
+readme = "README.md"
+
+keywords = ["api", "rest", "excon", "megam", "prettyprint"]
+
+license = "Apache-2.0"
+
+[lib]
+name = "megam_rustyprint"
+path = "src/megam_rustyprint/lib.rs"
+
+[dependencies]
+log = "0.3.1"
+term-painter = "0.1.1"
+
+[[test]]
+name = "tests"
